@@ -1,10 +1,615 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+<!--<script src="https://og6593g2z.qnssl.com/fundebug.0.0.5.min.js"-->
+        <!--apikey="63fb4495bc372d6b53f7989a0a929526fb4890f3df04864a91b15bf231e25464"></script>-->
     <meta charset="UTF-8">
-    <title>all</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Amo.lnk</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+
+        }
+        body{
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+        }
+ /*开始*/
+        .home{
+            width: 100%;
+            height: 1080px;
+            background: url("images/home.jpg") no-repeat ;
+            background-position: 40% 40% ;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+        .home_main{
+            width: 1200px;
+            height: 100%;
+            margin: auto;
+        }
+        .home_main_navgation{
+            height: 100px;
+        }
+        .home_main_navgation p{
+            margin-top: 20px;
+            width: 200px;
+            float: left;
+        }
+        .home_main_navgation div{
+            float: right;
+        }
+        .home_main_navgation div ul li {
+            list-style: none;
+            float: left;
+            width: 100px;
+            height: 60px;
+            padding-top: 40px;
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .home_main_navgation a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            height: 100px;
+            margin-top: -40px;
+            line-height: 100px;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+        }
+        .home_main_navgation a:hover{
+            color: #3fdaff;
+            background: rgba(30, 45, 50, 0.51);
+        }
+        .home_main_navgation_main h1,h3,p{
+            text-align: center;
+
+        }
+        .home_main_navgation_main h1{
+            margin-top: 360px;
+            color: white;
+            font-size: 45px;
+            font-weight: 500;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+        }
+        .home_main_navgation_main h3{
+            margin-top: 30px;
+            color: white;
+            font-size: 25px;
+            font-weight: 500;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+        }
+        .home_main_navgation_main p{
+            margin: 120px auto 0px;
+            height: 30px;
+            width: 280px;
+            background-color: rgba(223, 227, 226, 0.15);
+            padding: 10px 0px;
+        }
+        .home_main_navgation_main a{
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 900;
+            font-family:黑体;
+            line-height: 30px;
+        }
+        .home_main_navgation_main p:hover{
+            background: rgba(37, 121, 187, 0.87);
+        }
+ /*四个圈*/
+        .main_1{
+            height: 400px;
+        }
+        .main_1_1200{
+            width: 1200px;
+            height: 400px;
+            margin: 0px auto;
+        }
+        .main_1_top{
+            padding-top: 50px;
+
+        }
+        .main_1_top p{
+            font-size: 30px;
+            font-family: 微软雅黑;
+            font-weight: 500;
+            color: #443f42;
+        }
+        .main_1_main{
+            width: 1000px;
+            height: 300px;
+            margin: 0px auto;
+        }
+        .main_1_main_1{
+            width: 200px;
+            height: 300px;
+            font-size: 20px;
+            float: left;
+        }
+        .main_1_main_1_top{
+            width: 220px;
+            height: 200px;
+            background: url("images/yuan.png") no-repeat center   ;
+        }
+        .main_1_main_1_top p{
+            width: 210px;
+            padding-top: 70px;
+            font-size: 50px;
+            font-weight: 900;
+            font-style: italic;
+            font-family: 黑体;
+            color:#3fdaff;
+        }
+        .main_1_main_2{
+            padding-left: 14px;
+            width: 50px;
+            height: 300px;
+            float: left;
+        }
+        .main_1_main_2 p{
+            margin-top: 85px;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+        }
+        .main_1_main_2 img{
+            width: 25px;
+        }
+        .main_1_p{
+            padding-left: 13px;
+            font-family: 黑体;
+            font-weight: 300;
+            font-size: 19px;
+            color: rgb(113, 108, 111);
+            word-break: break-all;
+        }
+/*世界的组成部分*/
+        .main_2 {
+            height: 1000px;
+            background: #f1f1f1;
+        }
+        .main_2_1200{
+            width: 1200px;
+            height: 1000px;
+            margin: 0px auto;
+        }
+        .main_2_top{
+            height: 220px;
+            width: 1200px;
+        }
+        .main_2_top_p{
+            width: 690px;
+            height: 120px;
+            padding-top: 70px;
+            margin:0px auto;
+        }
+        .main_2_top_p h2{
+            font-size: 30px;
+            font-family: 微软雅黑;
+            font-weight: 500;
+            text-align: center;
+        }
+        .main_2_top_p p{
+            padding-top: 30px;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            color: #3c3840;
+
+        }
+        .main_2_main{
+            height: 670px;
+            width: 1200px;
+        }
+        .main_2_main_line{
+            height: 320px;
+            width: 1110px;
+            margin: 0px auto;
+        }
+        .main_2_main_chunk{
+            width: 370px;
+            height: 335px;
+            float: left;
+        }
+        .main_2_main_chunk h3{
+            font-size: 16px;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            padding-top: 15px;
+
+        }
+        .main_2_main_chunk p{
+            width: 284px;
+            height: 50px;
+            margin-top: 210px;
+        }
+        .main_2_main_chunk a{
+            background: rgba(0, 0, 0, 0.27);
+            display: block;
+            width: 284px;
+            height: 35px;
+            color: white;
+            text-decoration: none;
+            font-family: 微软雅黑;
+            padding-top: 15px;
+        }
+        .main_2_main_chunk a:hover{
+            background: rgba(255, 245, 255, 0.66);
+        }
+        .main_2_main_img_1{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_1.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid white;
+
+
+        }
+        .main_2_main_img_2{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_2.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid white;
+
+
+        }
+        .main_2_main_img_3{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_3.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid white;
+
+
+        }
+        .main_2_main_img_4{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_4.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid white;
+
+
+        }
+        .main_2_main_img_5{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_5.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid white;
+
+
+        }
+        .main_2_main_img_6{
+            width: 284px;
+            height: 259px;
+            margin: 0px auto;
+            background: url("images/chunk_6.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            border-top: 1px solid #f1f1f1;
+        }
+        .main_2_bottom{
+            height: 130px;
+            width: 1200px;
+        }
+        .main_2_bottom p{
+            height: 60px;
+            width: 475px;
+            margin: 0px auto;
+        }
+        .main_2_bottom a{
+            display: block;
+            height: 42px;
+            width: 475px;
+            background: #304e5e;
+            color: white;
+            font-size: 22px;
+            font-family: 微软雅黑;
+            font-weight: 900;
+            letter-spacing: 0px;
+            text-decoration: none;
+            padding-top: 18px;
+        }
+/*让我们看看*/
+        .main_3{
+            height: 670px;
+        }
+        .main_3_1200{
+            width: 1200px;
+            height: 670px;
+            margin: auto;
+            padding-top: 150px;
+        }
+        .main_3_main{
+            width: 1111px;
+            height: 315px;
+            margin: auto;
+        }
+        .main_3_main_left{
+            width: 480px;
+            height: 315px;
+            background: url("images/The_great_wall.jpg") no-repeat;
+            background-attachment: scroll;
+            background-position: left;
+            background-size: cover;
+            float: left;
+        }
+        .main_3_main_right{
+            width: 585px;
+            height: 315px;
+            float: right;
+        }
+        .main_3_main_right h1{
+            font-family: 微软雅黑;
+            font-weight: 500;
+            font-size: 25px;
+            padding: 10px 0px 15px;
+        }
+        .main_3_main_right p{
+            text-align: left;
+            font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+            line-height: 1.75;
+            font-size: 17px;
+            font-weight: normal;
+        }
+/*自我介绍*/
+        .main_4{
+            height: 912px;
+            background: #f6f6f6;
+        }
+        .main_4_1200{
+            border-top: 1px solid #f6f6f6;
+            height: 910px;
+            width: 1200px;
+            margin: auto;
+        }
+        .main_4_title{
+            margin-top: 270px;
+            margin-bottom:80px;
+            width: 1200px;
+            height: 50px;
+        }
+        .main_4_title h1{
+            font-family: 微软雅黑;
+            text-align: center;
+            font-weight: 300;
+        }
+        .main_4_main{
+            width: 680px;
+            height: 130px;
+            margin: auto;
+            background: #edeef0;
+            padding: 70px 110px;
+        }
+        .main_4_main p{
+            font-size: 19px;
+            text-align: left;
+            font-family: 微软雅黑;
+            line-height: 30px;
+            /*word-wrap: break-word;*/
+            word-break: break-all;
+        }
+        /*   ===========-------------------------------------------------------------------------------===============   */
+/*结尾*/
+        .foot{
+            border-top: 1px solid white;
+            height:780px;
+            background: url("images/foot.jpg") no-repeat scroll 50% 50%;
+            background-size: cover;
+        }
+        .foot div{
+            width: 1200px;
+            margin: 240px auto 0px;
+        }
+        .foot h1{
+            text-align: center;
+            color:white;
+            font-weight: 500;
+            font-size: 30px;
+            font-family: 微软雅黑;
+        }
+        .foot p{
+            text-align: center;
+            margin: 40px auto 0px;
+            padding-top:5px;
+            padding-bottom: 5px;
+            border: 2px solid white;
+            width: 200px;
+        }
+        .foot a{
+            font-size: 25px;
+            font-weight: 500;
+            color: white;
+            text-decoration: none;
+            font-family: 微软雅黑;
+        }
+    </style>
 </head>
 <body>
+<!--/*开始*/-->
+    <div class="home">
+        <div class="home_main">
+            <div class="home_main_navgation">
+                <p><img src="images/amolnk.png" height="60" ></p>
+                <div>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">history</a></li>
+                        <li><a href="#">analyze</a></li>
+                        <li><a href="#">about</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="home_main_navgation_main">
+                <h1>Get rid of the bondage, release yourself</h1>
+                <h3>The world belongs to you</h3>
+                <p id="begin" onclick="begin()"><a href="./search/index.html">begin</a></p>
+                <script>
+                    function begin() {
+                        window.location.href="./search/index.html";
+                    }
+                </script>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+<!--/*四个圈*/-->
+    <div class="main_1">
+        <div class="main_1_1200">
+            <div class="main_1_top">
+                <p>Do you think what is the secret of success?</p>
+            </div>
+            <div class="main_1_main">
+                <div class="main_1_main_1">
+                    <div class="main_1_main_1_top">
+                        <p>1</p>
+                    </div>
+                    <p class="main_1_p"> search target</p>
+                </div>
+                <div class="main_1_main_2"><p><img src="images/jiantou.png" alt=""></p></div>
 
+                <div class="main_1_main_1">
+                    <div class="main_1_main_1_top">
+                        <p>2</p>
+                    </div>
+                    <p class="main_1_p">Analysis method</p>
+                </div>
+                <div class="main_1_main_2"><p><img src="images/jiantou.png" alt=""></p></div>
+
+                <div class="main_1_main_1">
+                    <div class="main_1_main_1_top">
+                        <p>3</p>
+                    </div>
+                    <p class="main_1_p">Explain Plan</p>
+                </div>
+                <div class="main_1_main_2"><p><img src="images/jiantou.png" alt=""></p></div>
+
+                <div class="main_1_main_1">
+                    <div class="main_1_main_1_top">
+                        <p>4</p>
+                    </div>
+                    <p class="main_1_p">According to the result set goals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--/*世界的组成部分*/-->
+    <div class="main_2">
+        <div class="main_2_1200">
+            <div class="main_2_top">
+                <div class="main_2_top_p">
+                    <h2>What do you think of the world made of？</h2>
+                    <p>Of course is a network. Now the human living in cell phones and computers，
+                        Do you think the rules of the world can still live a few years</p>
+                </div>
+            </div>
+            <div class="main_2_main">
+                <div class="main_2_main_line">
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_1">
+                            <p><a href="#">It's money</a></p>
+                        </div>
+                        <h3>One of the most important of the world</h3>
+                    </div>
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_2">
+                            <p><a href="#">right</a></p>
+                        </div>
+                        <h3>Erosion of the human heart</h3>
+                    </div>
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_3">
+                            <p><a href="#">debauchery</a></p>
+                        </div>
+                        <h3>Blinded his eyes</h3>
+                    </div>
+                </div>
+                <div class="main_2_main_line">
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_4">
+                            <p><a href="#">make friends online</a></p>
+                        </div>
+                        <h3>Indulge in the virtual network</h3>
+                    </div>
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_5">
+                            <p><a href="#">game</a></p>
+                        </div>
+                        <h3>Illusion in control of you</h3>
+                    </div>
+                    <div class="main_2_main_chunk">
+                        <div class="main_2_main_img_6">
+                            <p><a href="#">sage</a></p>
+                        </div>
+                        <h3>Life taste</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="main_2_bottom">
+                <p><a href="#">This is the world</a></p>
+            </div>
+        </div>
+    </div>
+<!--/*让我们看看*/-->
+    <div class="main_3">
+        <div class="main_3_1200">
+            <div class="main_3_main">
+                <div class="main_3_main_left"></div>
+                <div class="main_3_main_right">
+                    <h1>Let me see</h1>
+                    <p>What affects people's life?</p>
+                    <p>of couse . It's Network .  Now ,the world's network.
+                        People play games, find object,get money and right.
+                        Are transferred to the Internet. </p>
+                    <p>The virtual world The devil,  open hands to us. Human being enslaved to create your own things</p>
+                    <p>Of course, someone will remain rational. They are looking for this demon,
+                        the demon of the sickle.Why are they?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--/*自我介绍*/-->
+    <div class="main_4">
+        <div class="main_4_1200">
+            <div>
+                <div class="main_4_title">
+                    <h1>introduce myself</h1>
+                </div>
+                <div class="main_4_main">
+                    <p>I'm not god. I'm not those mysterious hacker. I'm not official. Did you read my website, You may think I am a rebellious teenager.But I tell you, Now the world does not belong to you also don't belong to me it belongs to the network.We must act quickly,In the emerging world leave a thick</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--/*结尾*/-->
+    <div class="foot">
+        <div>
+            <h1>If you find the goal, then go find what you want to NetWork</h1>
+            <p><a href="./search/index.html">GO</a></p>
+        </div>
+
+    </div>
 </body>
 </html>
