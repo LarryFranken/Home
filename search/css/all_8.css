@@ -1,0 +1,79 @@
+.all_08{
+    width: 1198px;
+    height:850px;
+    display: none;
+    margin: 0px auto;
+    position: relative;
+}
+.jsq_all{
+    width: 430px;
+    height: 500px;
+    margin: 150px auto 0px;
+    background: -webkit-linear-gradient(140deg,#bababa,#d7d7d7 50%,#e6e6e6 50%,#fff);
+    border: #bfbfbf solid 1px;
+    border-radius: 0.33333rem;
+}
+#Display{
+    width:85%;
+    height: 50px;
+    background: url("../img/display.jpg") no-repeat left;
+    background-size: 99% 99%;
+    padding: 20px 20px 30px;
+    margin: 0px auto;
+    font-size: 55px;
+    text-align: right;
+}
+.jsq_all  {
+
+}
+.jsq_all table{
+    margin-top: 10px;
+    margin-left: 6px;
+}
+.jsq_all table tr{
+
+}
+.jsq_all table td{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    /*        border: 1px solid red;*/
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+.jsq_all table td input{
+    display: block;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+    border-radius: 0.3em;
+    text-decoration: none;
+}
+.tdd-n{
+    background: url("../img/button1.jpg") no-repeat left;
+    background-size: 100% 100%;
+    border: 1px solid #8d8d8d;
+}
+.tdd_1{
+    background: url('../img/button2.jpg') no-repeat left;
+    background-position: -1px;
+    background-size: 101% 105%;
+    border: 1px solid #b14610;
+}
+.tdd_2{
+    background: url("../img/button3.jpg") no-repeat left;
+    background-size: 100% 100%;
+    border: 1px solid #62422f;
+}
+#tdd_3{
+    background: url("../img/button4.jpg") no-repeat left;
+    background-size: 100% 100%;
+    border: 1px solid #62422f;
+}
+.jsq_all h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0px;
+}

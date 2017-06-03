@@ -1,0 +1,67 @@
+.all_06{
+    width: 1198px;
+    height:500px;
+    display: none;
+    margin: 0px auto;
+}
+.yunc ul{
+    height: 400px;
+    background-color: skyblue;
+    margin-top: 100px;
+    animation: yuncchange 5s linear 0s infinite alternate;
+    position: relative;
+    overflow: hidden;
+}
+.yunc ul li{
+    list-style: none;
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.yunc ul li:nth-child(1){
+    background-image: url("../images/cloud_one.png");
+    animation: yuncone 30s linear 0s infinite alternate;
+}
+.yunc ul li:nth-child(2){
+    background-image: url("../images/cloud_two.png");
+    animation: yunctwo 30s linear 0s infinite alternate;
+}
+.yunc ul li:nth-child(3){
+    background-image: url("../images/cloud_three.png");
+    animation: yuncthree 30s linear 0s infinite alternate;
+}
+@keyframes yuncchange {
+    from{
+        background-color: skyblue;
+    }
+    to{
+        background-color: black;
+    }
+}
+@keyframes yuncone {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
+@keyframes yunctwo {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: -200%;
+    }
+}
+@keyframes yuncthree {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: -300%;
+    }
+}
+

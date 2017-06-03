@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        p{
+            width: 200px;
+            height: 70px;
+            background: #e2ffda;
+            position: fixed;
+            right: 0px;
+            top: 15%;
+            text-align: center;
+            line-height: 70px;
+        }
+        div{
+            width: 100%;
+            height: 600px;
+            background: #fbce76;
+        }
+        div:nth-child(1){
+            background: #fbce76;
+        }
+        div:nth-child(2){
+            background: #fb3400;
+        }
+        div:nth-child(3){
+            background: #83fbbc;
+        }
+        div:nth-child(4){
+            background: #0dfb7e;
+        }
+        div:nth-child(5){
+            background: #ed80fb;
+        }
+        div:nth-child(6){
+            background: #74aafb;
+        }
+        div:nth-child(7){
+            background: #fbfbfb;
+        }
+        div:nth-child(8){
+            background: #fb9c6b;
+        }
+
+    </style>
+</head>
+<body>
+    <p onclick="text()">获取高度</p>
+    <div><iframe width="100%" height="600" src="http://s.70sec.com/" frameborder="0"></iframe></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+<script>
+    function text() {
+        var s=console.info(window.scrollY);
+        var ss=window.pageYOffset;
+        alert(ss);
+    }
+</script>
+</html>

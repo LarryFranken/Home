@@ -1,0 +1,75 @@
+.all_05{
+    width: 1198px;
+    height:900px;
+    display: none;
+    margin: 0px auto;
+}
+.all_01_5_1{
+    width: 500px;
+    height: 574px;
+    margin: 100px auto 0px ;
+}
+.all_05_zz{
+    float: left;
+    width: 245px;
+    height: 680px;
+}
+.all_05_z{
+    width:200px;
+    height:200px;
+}
+.all_05_z ul{
+    margin:50px auto 0px;
+    width:200px;
+    height:200px;
+
+    position:relative;
+
+    transform:rotateX(0deg) rotateY(0deg);
+    transform-style:preserve-3d;
+    animation: sky 5s linear 0s infinite running;
+}
+@keyframes sky{
+    from{
+        transform:rotateX(0deg) rotateY(0deg);
+    }
+    to{
+
+        transform:rotateX(360deg) rotateY(360deg);
+    }
+}
+.all_05_z li{
+    width:200px;
+    height:200px;
+    list-style:none;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-size:100px;
+    text-align:center;
+    line-height:200px;
+}
+.all_05_z li:nth-child(1){
+    background:skyblue;
+    transform:translateZ(100px);
+}
+.all_05_z li:nth-child(2){
+    background:darkgreen;
+    transform:translateZ(-100px) ;
+}
+.all_05_z li:nth-child(3){
+    background:orange;
+    transform: translateX(-100px) rotateY(90deg);
+}
+.all_05_z li:nth-child(4){
+    background:orangered;
+    transform: translateX(100px) rotateY(90deg);
+}
+.all_05_z li:nth-child(5){
+    background:yellow;
+    transform: translateY(-100px) rotateX(90deg);
+}
+.all_05_z li:nth-child(6){
+    background: wheat;
+    transform: translateY(100px) rotateX(-90deg);
+}

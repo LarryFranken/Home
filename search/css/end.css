@@ -1,0 +1,93 @@
+.end_content ul:nth-child(1){
+    float: left;
+}
+.end_content ul:nth-child(2){
+    float: right;
+}
+.end_content li{
+    float: left;
+    list-style: none;
+    margin-right: 16px;
+}
+.end_content ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 12px;
+}
+.end_content ul li span{
+    text-decoration: none;
+    color: #575757;
+    font-size: 12px;
+}
+.end_content ul li a:hover{
+    color: #21a94f;
+    text-decoration: underline;
+}
+
+.end_i1{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -578px -320px;
+}
+.end_i2{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -542px -528px;
+}
+.end_i3{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -578px -144px;
+}
+.end_i4{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -578px -108px;
+}
+.end_i5{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -578px -72px;
+}
+.end_i6{
+    display: block;
+    width:18px;
+    height: 15px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background: url("../images/jinglingtu.png");
+    float: left;
+    background-position: -191px -571px;
+}
+
+
+.end_content>div{
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+}

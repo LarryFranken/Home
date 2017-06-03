@@ -1,0 +1,60 @@
+/*三大主模块*/
+*{
+    padding: 0;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+body{
+    background: #fbfbfb;
+}
+.top{
+    height: 180px;
+    width: 100%;
+    z-index: 100;
+}
+.all{
+    width: 100%;
+    height:38px;
+    overflow: hidden;
+}
+.end{
+    width: 100%;
+    height: 70px;
+/*    background: #ffc529;*/
+}
+/*三大模块之各模块主内容*/
+.top_logo{
+    width: 100%;
+    height:60px;
+    border-bottom: 1px solid #e5e0e5;
+}
+.top_content{
+    width: 1200px;
+    height: 109px;
+    margin: 0px auto;
+    background: #fbfbfb;
+    border-top: 1px solid #fbfbfb ;
+    z-index: 10;
+}
+.all_content{
+    width: 1198px;
+    height:38px;
+    margin: 0px auto;
+    border-bottom: 1px solid #d4c6d4;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.end_content{
+    width: 1200px;
+    height: 70px;
+    margin: 0px auto;
+    padding-top: 5px;
+    border-top: 1px solid #c1c1c1;
+/*    background: darkorange;*/
+}

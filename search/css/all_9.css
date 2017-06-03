@@ -1,0 +1,132 @@
+.all_09{
+    width: 1198px;
+    height:2000px;
+    display: none;
+    margin: 0px auto;
+    position: relative;
+}
+.gm2048{
+    width: 470px;
+    height: 470px;
+    margin: 10px auto 0;
+    background: #bbada0;
+    border:  15.3px solid #bbada0;
+    border-radius: 11px;
+}
+.gm2048 li{
+    width: 106px;
+    height: 106px;
+    float: left;
+    background: #cdc1b4;
+    margin-left: 15.3px;
+    font-size: 37px;
+    line-height: 106px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.gm2048 li:nth-child(1){
+    margin-left: 0px;
+}
+.gm2048 ul{
+    width: 100%;
+    height: 121.3px;
+}
+.gm2048 ul:nth-child(1){
+    margin-top: 0px;
+}
+.all_07_d01{
+    width: 100px;
+    height: 54px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    background: #bbada0;
+    color: #eee4da;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 2px;
+    border-radius: 3px;
+}
+.all_07_d01 p{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.all_07_d02{
+    width: 100px;
+    height: 54px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    background: #bbada0;
+    color: #eee4da;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.all_07_d02 p{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+}
+.all_07_d{
+    width: 210px;
+    height: 57px;
+    margin: 50px auto 0px;
+}
+.game_2048_cz{
+    width: 500px;
+    height: 25px;
+    margin: 10px auto 0;
+}
+.game_2048_cz p{
+    width: 77px;
+    height: 30px;
+    background: #cdc1b4;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    color: #fcfaff;
+    border-radius: 3px;
+}
+.game_2048_cz p:hover{
+    background: #988d84;
+}
+.all_7_g{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.43);
+    z-index: 1000;
+    padding-top: 70px;
+}
+.gm2048kaishi{
+    width: 240px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    background: rgb(229, 208, 195);
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+    border:1px solid rgb(229, 208, 195);
+}
+.gm_guanbi{
+    background:url("../images/gm_01.png") ;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 16%;
+    top: 7%;
+    border-radius: 25px;
+}

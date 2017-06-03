@@ -1,0 +1,212 @@
+.dl{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.13);
+    position: absolute;
+    z-index: 99;
+    left:0px;
+    top:0px;
+    display: none;
+}
+.dl_all{
+    width: 590px;
+    height: 490px;
+    margin: 150px auto;
+    background: #ffffff;
+}
+.dl_all a:hover{
+    color: #1b66c7;
+    text-decoration: underline;
+}
+.dl_top{
+    width: 590px;
+    height: 55px;
+    background: #f7f7f7;
+}
+.dl_content{
+    width: 590px;
+    height: 435px;
+    background: #ffffff;
+}
+.dl_top p:nth-child(1){
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 27px;
+    height: 34px;
+    float: left;
+    background-size: cover;
+
+}
+.dl_top p:nth-child(2){
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 105px;
+    height: 55px;
+    float: left;
+    line-height: 55px;
+    color: #666666;
+}
+.dl_top p:nth-child(3){
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 22px;
+    height: 22px;
+    float: right;
+    overflow: hidden;
+    background: url("../images/pass_login_icons_7c6e14d.png")273px -61px ;
+    background-size: 1555%;
+}
+.dl_top p:nth-child(3):hover{
+    background-position: 252px -61px;
+}
+.dl_content_left{
+    width: 170px;
+    height: 230px;
+    float: left;
+    margin-top: 86px;
+    margin-left: 66px;
+}
+.dl_content_right{
+    width: 270px;
+    height: 370px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.dl_content_left p:nth-child(1){
+    text-align: center;
+    color: #5c5c5c;
+}
+.dl_content_left p:nth-child(2){
+    width: 135px;
+    height: 135px;
+    margin-top: 18px;
+    margin-left: 19px;
+    background: url("../images/qrcode.png") no-repeat;
+    background-size:cover;
+}
+.dl_content_left p:nth-child(3){
+    font-size: 12px;
+    text-align: center;
+    margin-top: 18px;
+    background: #f1f1f1;
+    border-radius: 3px;
+
+}
+.dl_content_left p:nth-child(3) a{
+    color: #1b66c7;
+}
+
+.dl_content_1{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+.dl_i1{
+    margin-top: 2px;
+    margin-right: 5px;
+    display: block;
+    width: 9px;
+    height: 14px;
+    float: right;
+    background: url("../images/smsSwitchPhone_68b31bb.png") no-repeat;
+}
+.dl_p1{
+/*    margin-top: 10px;*/
+    color: black;
+    width: 76px;
+    height: 13px;
+    float: right;
+    font-size: 12px;
+
+}
+
+.dl_content_2{
+    width: 250px;
+    height:42px;
+    margin-top: 22px;
+    margin-left: 10px;
+    border:1px solid #dddddd;
+}
+.dl_content_2 i{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: url("../images/input_icons_24_2764534.png");
+    background-position: 0 -68px;
+    float: left;
+}
+.dl_username{
+    margin-left: 10px;
+    width: 200px;
+    height:20px;
+    margin-top: 12px;
+    border: 0px;
+    outline:none;
+}
+.dl_content_i2{
+
+}
+.dl_content_right_d1{
+    height: 20px;
+    width: 250px;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+.dl_content_right_p1{
+    width: 110px;
+    height: 20px;
+    float: left;
+}
+.dl_content_right_p2{
+    width: 88px;
+    height: 20px;
+    float: right;
+}
+.dl_content_dl{
+
+    width: 250px;
+    height: 48px;
+    margin:10px auto;
+    text-align: center;
+    line-height: 48px;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgba(63, 137, 236, 1);
+    border-radius: 3px;
+    color: white;
+}
+.dl_content_p3{
+    text-align: right;
+    width: 260px;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.dl_content_right_end{
+    width: 250px;
+    height: 80px;
+    /*background: #ddefff;*/
+    margin:10px auto 0;
+    font-size: 12px;
+    border-top: #eeeeee 1px solid;
+    padding-top: 18px;
+}
+.dl_content_right_end_i1{
+    display: block;
+    float: left;
+    width: 25px;
+    height: 24px;
+    margin-left: 10px;
+    background: url("../images/pass_login_icons_7c6e14d.png") no-repeat -88px 0;;
+}
+.dl_content_right_end_i2{
+    display: block;
+    float: left;
+    width: 26px;
+    height: 24px;
+    margin-left: 10px;
+    background: url("../images/pass_login_icons_7c6e14d.png") no-repeat -64px 0;
+}
